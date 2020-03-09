@@ -1,0 +1,40 @@
+$cor1 : #fff9;
+$cor2 : #1b2a41;
+$cor3 : #324a5f;
+$cor4 : #ccc9dc;
+
+body{
+	overflow-x: hidden;
+}
+
+$theme-colors:(
+	"cor1" : $cor1,
+	"cor2" : $cor2,
+	"cor3" : $cor3,
+	"cor4" : $cor4
+);
+
+#slide1{
+	background-image: url(../img/img1.jpg);
+	
+}
+
+#slide2{
+	background-image: url(../img/img2.jpg);
+}
+
+#slide3{
+	background-image: url(../img/img3.jpg);
+}
+
+.meu-slide{	
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
